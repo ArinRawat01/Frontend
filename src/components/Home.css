@@ -1,0 +1,58 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem;
+    background-color: #f9f9f9;
+}
+
+.home-content {
+    max-width: 50%;
+}
+
+.home-content h1 {
+    font-size: 2.5rem;
+    color: #3c25d4;
+    margin-bottom: 1rem;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    border-right: 2px solid #1030e8; /* Blinking cursor */
+    animation: typing 8s steps(17, end) infinite, blink 0.6s step-end infinite; /* Adjust the duration */
+}
+
+/* Typing animation */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    45% {
+        width: 18ch; /* 'Welcome to Educor' (up to 'e') */
+    }
+    50% {
+        width: 0; /* Reset to start again */
+    }
+    100% {
+        width: 18ch; /* Repeats the process of typing the same part */
+    }
+}
+
+/* Cursor blinking */
+@keyframes blink {
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+.home-content p {
+    font-size: 1.1rem;
+    color: #3c3a3a;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.home-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

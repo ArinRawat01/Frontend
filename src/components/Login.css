@@ -1,0 +1,127 @@
+/* Center the login form */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #6c6464;
+  margin: 0;
+  position: relative; /* Allows absolute positioning of logo */
+}
+
+/* Logo container */
+.logo-container {
+  position: absolute;
+  top: 20px; /* Adjust the space from the top */
+  left: 20px; /* Adjust the space from the left */
+}
+
+.logo {
+  width: 100px; /* Adjust the size of the logo */
+  height: auto;
+}
+
+/* Login form */
+.login-form {
+  width: 100%;
+  max-width: 400px; /* Increased max-width */
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Sliding animation for toggle between login and signup */
+.login-form.slide-up {
+  transform: translateY(-10px);  /* Adds subtle upward movement */
+  opacity: 1;
+}
+
+/* Form heading */
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form field group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%; /* Makes the input take full width of the container */
+  max-width: 100%; /* Ensures the input doesn't exceed the container width */
+  padding: 12px; /* Match padding with button */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Action buttons and links */
+.form-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login-btn {
+  width: 100%; /* Full width to match input */
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #555;
+}
+
+/* Links for SignUp/SignIn and Forgot Password */
+.links {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.links button {
+  background: none;
+  border: none;
+  color: #0a4584;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.links button:hover {
+  text-decoration: underline;
+}
+
+/* Specific button styling */
+.toggle-btn {
+  margin-bottom: 10px;
+}
+
+.forgot-password-btn {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #666;
+}

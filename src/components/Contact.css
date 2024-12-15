@@ -1,0 +1,116 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info {
+    flex: 1;
+    min-width: 250px;
+    max-width: 45%;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .query-box {
+    height: 250px;
+    resize: none;
+  }
+  
+  .send-button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+  
+  .send-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .message-popup {
+    margin-top: 1rem;
+    background-color: #1b682d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  /* Styling for social media section */
+  .social-media {
+    text-align: center;
+    margin-top: 1rem; /* Reduce this value to decrease gap */
+    width: 100%;
+  }
+  
+  .social-media p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem; /* Reduced margin to minimize space */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-icon {
+    font-size: 2rem;
+    color: #0073e6;
+    cursor: pointer;
+  }
+  
+  .social-icon:hover {
+    color: #005bb5;
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 0.5rem; /* Reduced margin to reduce gap */
+    padding-top: 0.5rem; /* Optional: Adjust if needed */
+    text-align: center;
+  }
+  

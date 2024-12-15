@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin-right: 15px; /* Reduced the gap between links */
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px; /* Increased font size */
+    padding: 8px 16px; /* Added some padding */
+    transition: transform 0.3s ease, color 0.3s ease, text-decoration 0.3s ease; /* Added transition for text-decoration */
+  }
+  
+  .navbar ul li a:hover {
+    color: #36f452; /* Red color on hover */
+    transform: translateX(5px); /* Shifts the link to the right on hover */
+    text-decoration: underline; /* Adds underline on hover */
+  }
+  
+  .logout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logout-icon {
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .logout-icon:hover {
+    color: #36f46f; /* Change color to red on hover */
+  }
+  

@@ -1,0 +1,70 @@
+.exam-schedule {
+    padding: 2rem;
+}
+
+.exam-schedule h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #0073e6;
+    color: white;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.exam-instructions {
+    margin-top: 2rem;
+}
+
+.exam-instructions h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.exam-instructions div {
+    margin-bottom: 1rem;
+}
+
+.exam-instructions h4 {
+    margin-bottom: 0.5rem;
+}
+
+.exam-instructions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.exam-instructions li {
+    margin-bottom: 0.5rem;
+}
+
+.exam-instructions .online-instructions ul {
+    background-color: #e0f7fa;
+    padding: 10px;
+}
+
+.exam-instructions .offline-instructions ul {
+    background-color: #fff3e0;
+    padding: 10px;
+}
